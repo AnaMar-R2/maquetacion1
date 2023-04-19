@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="cont__blue">
+      <p class="cont__blue-tittle">Your Result</p>
+      <div class="cont__blue__circle">
+        <h1 class="cont__blue__circle-number">76</h1>
+        <p class="cont__blue__circle-text">of 100</p>
+      </div>
+      <h2 class="cont__blue-h2">Great</h2>
+      <p class="cont__blue-text">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    <div class="cont__white">
+
+      <div class="cont__barColor reaction">
+        <div class="cont__reaction cont__iconTitle">
+          <img class="icon" src="./assets/images/icon-reaction.svg" alt="icon_reaction">
+          <span class="title">Reaction</span>
+        </div>
+        <div class="cont__percentage">
+          <span class="percentage"><strong>80</strong> / 100</span>
+        </div>
+      </div> 
+
+      <div class="cont__barColor memory">
+        <div class="cont__memory cont__iconTitle">
+          <img class="icon" src="./assets/images/icon-memory.svg" alt="icon_memory">
+          <span class="title">Memory</span>
+        </div>
+        <div class="cont__percentage">
+          <span class="percentage"><strong>92</strong> / 100</span>
+        </div>
+      </div> 
+
+      <div class="cont__barColor verbal">
+        <div class="cont__verbal cont__iconTitle">
+          <img class="icon" src="./assets/images/icon-verbal.svg" alt="icon_verbal">
+          <span class="title">Verbal</span>
+        </div>
+        <div class="cont__percentage">
+          <span class="percentage"><strong>61</strong> / 100</span>
+        </div>
+      </div>
+      <div class="cont__barColor visual">
+        <div class="cont__visual cont__iconTitle">
+          <img class="icon" src="./assets/images/icon-visual.svg" alt="icon_visual">
+          <span class="title">Visual</span>
+        </div>
+        <div class="cont__percentage">
+          <span class="percentage"><strong>72</strong> / 100</span>
+        </div>
+      </div>
+      <button class="continue title">Continue</button>
+    </div>
+  </div>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
